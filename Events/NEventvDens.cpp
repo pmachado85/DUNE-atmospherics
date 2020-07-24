@@ -21,21 +21,10 @@
 #include <algorithm>
 #include <vector>
 #include <iomanip>
-#include "./LibProb/atm.fluxes.hh"
-#include "./LibMath/errmsg.hh"
-#include "./LibMath/fitter-P.hh"
-#include "./LibMath/progress.hh"
-#include "./LibMath/constants.hh"
-#include "./LibMath/misc.hh"
-#include "./LibMath/interp.hh"
-#include "./LibProb/prb.earth.hh"
-#include "./LibMath/progress.hh"
 
 
 using namespace std;
-using namespace Probs::Atmos;
-using namespace Tools;
-using namespace Probs;
+
 
 
 enum FLV {FLV_elc, FLV_mu, FLV_tau, NUM_FLV};
